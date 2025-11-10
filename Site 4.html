@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Mundo da Música</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Cabeçalho principal */
+        h1 {
+            background-color: black;
+            color: white;
+            text-align: center;
+            letter-spacing: 4px;
+            margin: 0;
+            padding: 20px;
+            font-size: 3rem;
+        }
+
+        h3 {
+            text-align: center;
+            color: DodgerBlue;
+        }
+
+        p {
+            text-align: justify;
+            font-size: 18px;
+            margin: 20px auto;
+            padding: 0 20px;
+            max-width: 800px;
+        }
+
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f0f0f0;
+        }
+
+        .btn {
+            display: block;
+            width: fit-content;
+            margin: 20px auto;
+            background-color: DodgerBlue;
+            color: white;
+            padding: 8px 16px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        video {
+            display: block;
+            margin: 20px auto;
+            border-radius: 8px;
+        }
+
+        /* --- MENU DE NAVEGAÇÃO (preto fixo) --- */
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: black;
+        }
+
+        ul li {
+            float: left;
+        }
+
+        ul li a {
+            display: block;
+            background-color: black; /* fundo preto fixo */
+            color: white;            /* texto branco */
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Mantém preto ao passar o rato */
+        ul li a:hover {
+            background-color: black;
+        }
+
+        /* Centraliza o formulário */
+        form {
+            text-align: center;
+            margin: 40px auto;
+        }
+
+        input[type="text"] {
+            width: 300px;
+            padding: 8px;
+            font-size: 16px;
+        }
+
+        input[type="submit"] {
+            background-color: DodgerBlue;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            margin-top: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #1c6cd9;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Barra de navegação -->
+ <ul>
+        <li><a href="Index.html">Início</a></li>
+        <li><a href="Site2.html">Festival</a></li>
+        <li><a href="Site 3.html">Cantores</a></li>
+        <li><a href="Site 4.html">Vídeoclipes</a></li>
+        <li><a href="SiteFinal.html"></a></li>
+    </ul>
+
+    <!-- Título -->
+    <h1>VibeFest - Vídeoclipes</h1>
+
+    <!-- Introdução -->
+    <p>Bem-vindo ao Mundo da Música! Aqui você encontra artistas incríveis e suas melhores produções.</p>
+
+    <!-- Travis Scott e Don Toliver -->
+    <h3>Travis Scott & Don Toliver</h3>
+    <video width="480" height="270" controls>
+        <source src="Travis Scott - CAN'T SAY (Audio).mp4" type="video/mp4">
+        Seu navegador não suporta vídeos em HTML5.
+    </video>
+
+    <!-- Wet Bed Gang -->
+    <h3>Wet Bed Gang</h3>
+    <video width="480" height="270" controls>
+        <source src="Wet Bed Gang - Não Sinto (Vídeo Oficial).mp4" type="video/mp4">
+        Seu navegador não suporta vídeos em HTML5.
+    </video>
+
+    <!-- Formulário de feedback -->
+    <form action="SiteFinal.html">
+        <label for="fname">Diga-me o seu feedback!</label><br>
+        <input type="text" id="fname" name="fname" value=""><br>
+        <input type="submit" value="Enviar">
+    </form>
+
+</body>
+</html>
